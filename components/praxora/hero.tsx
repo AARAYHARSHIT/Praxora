@@ -71,9 +71,10 @@ export function Hero() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Praxora is an advanced AI platform engineered for a new era of
-          computing — cinematic, precise, and effortless. Systems that think in
-          space, and move without friction.
+          Praxora is a concept platform exploring the future of spatial intelligence,
+adaptive AI, and human-centered computing. Every interaction is designed
+to anticipate intent, adapt to context, and feel invisible within the
+experience.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
