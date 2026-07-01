@@ -99,18 +99,139 @@ export function Features() {
         {features.map((f, i) => (
           <Reveal key={f.title} delay={(i % 3) * 90}>
             <TiltCard>
-              <article className="group glass relative h-full overflow-hidden rounded-3xl p-7 transition-colors duration-500 hover:border-accent/40">
-                <div
-                  aria-hidden="true"
-                  className="pointer-events-none absolute -right-10 -top-10 size-32 rounded-full bg-accent/10 opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100"
-                />
-                <div className="mb-5 inline-flex size-11 items-center justify-center rounded-2xl bg-secondary text-accent ring-1 ring-border">
-                  <f.icon className="size-5" />
+              <article
+  className="
+  group
+  glass
+  relative
+  h-full
+  overflow-hidden
+  rounded-3xl
+  border
+  border-white/5
+  p-7
+
+  transition-all
+  duration-500
+
+  hover:-translate-y-2
+  hover:border-cyan-400/40
+  hover:bg-white/[0.04]
+  hover:shadow-[0_20px_80px_rgba(0,255,255,0.08)]
+  "
+>
+<div
+  className="
+  absolute
+  bottom-0
+  left-0
+  h-[2px]
+  w-0
+
+  bg-gradient-to-r
+  from-cyan-400
+  to-transparent
+
+  transition-all
+  duration-500
+
+  group-hover:w-full
+  "
+/>
+<div
+aria-hidden="true"
+className="
+pointer-events-none
+
+absolute
+
+-right-10
+-top-10
+
+size-40
+
+rounded-full
+
+bg-cyan-400/15
+
+opacity-0
+
+blur-3xl
+
+transition-all
+duration-700
+
+group-hover:scale-125
+group-hover:opacity-100
+"
+/>
+ <div
+className="
+mb-5
+inline-flex
+size-11
+items-center
+justify-center
+rounded-2xl
+
+bg-secondary
+
+text-accent
+
+ring-1
+ring-border
+
+transition-all
+duration-500
+
+group-hover:scale-110
+group-hover:rotate-6
+group-hover:ring-cyan-400/50
+group-hover:bg-cyan-400/10
+"
+>
+                  <f.icon
+className="
+size-5
+
+transition-transform
+duration-500
+
+group-hover:scale-110
+"
+/>
                 </div>
-                <h3 className="mb-2 text-lg font-medium tracking-tight text-foreground">
+                <h3
+className="
+mb-2
+text-lg
+font-medium
+tracking-tight
+
+text-foreground
+
+transition-colors
+duration-500
+
+group-hover:text-cyan-100
+"
+>
                   {f.title}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">
+                <p
+className="
+text-sm
+
+leading-relaxed
+
+text-muted-foreground
+
+transition-colors
+duration-500
+
+group-hover:text-slate-300
+"
+>
                   {f.body}
                 </p>
               </article>

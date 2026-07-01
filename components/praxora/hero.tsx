@@ -79,11 +79,11 @@ experience.
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <MagneticButton className="px-8 py-3.5">
-            Explore the Future
+            
             <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </MagneticButton>
           <MagneticButton variant="ghost" className="px-8 py-3.5">
-            Platform Vision
+            Explore the Platform
           </MagneticButton>
         </div>
       </div>
