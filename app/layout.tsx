@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Harshit Pathak",
-      url: "https://github.com/YOUR_GITHUB_USERNAME",
+      url: "https://github.com/AARAYHARSHIT",
     },
   ],
 
@@ -56,22 +56,42 @@ export const metadata: Metadata = {
     follow: true,
   },
 
-  openGraph: {
-    title: "Praxora • Spatial Intelligence",
-    description:
-      "Advanced intelligence engineered to feel weightless.",
-    url: "https://praxora.vercel.app",
-    siteName: "Praxora",
-    locale: "en_US",
-    type: "website",
-  },
+openGraph: {
+  title: "Praxora • Spatial Intelligence",
 
-  twitter: {
-    card: "summary_large_image",
-    title: "Praxora",
-    description:
-      "Advanced intelligence engineered to feel weightless.",
-  },
+  description:
+    "A cinematic concept platform exploring adaptive AI, spatial intelligence, and next-generation human-computer interaction.",
+
+  url: "https://praxora.vercel.app",
+
+  siteName: "Praxora",
+
+  locale: "en_US",
+
+  type: "website",
+
+  images: [
+    {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Praxora Preview",
+    },
+  ],
+},
+
+twitter: {
+  card: "summary_large_image",
+
+  title: "Praxora • Spatial Intelligence",
+
+  description:
+    "Advanced intelligence engineered to feel weightless.",
+
+  creator: "@Harshit13824870",
+
+  images: ["/og-image.png"],
+},
 
   category: "technology",
 
