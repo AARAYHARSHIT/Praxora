@@ -95,8 +95,6 @@ twitter: {
 
   category: "technology",
 
-  themeColor: "#090B10",
-
   icons: {
     icon: [
       {
@@ -118,7 +116,7 @@ twitter: {
 
 export const viewport: Viewport = {
   colorScheme: 'dark',
-  themeColor: '#0a0d12',
+  themeColor: '#090B10',
 }
 
 export default function RootLayout({

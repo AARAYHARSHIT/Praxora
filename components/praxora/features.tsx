@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils"
 const features = [
   {
     icon: Orbit,
-    title: "Spatial Reasoning",
-    body: "Models that perceive depth, context, and intent — computing that understands the world in three dimensions.",
+    title: "Spatial Intelligence",
+    body: "Interfaces that understand presence, movement, and environmental context.",
   },
   {
     icon: Gauge,
@@ -19,13 +19,13 @@ const features = [
   },
   {
     icon: Layers,
-    title: "Adaptive Layers",
-    body: "Composable intelligence that reshapes itself around your workflow, surfacing only what matters, when it matters.",
+    title: "Adaptive Reasoning",
+    body: "AI systems that evolve with every interaction, improving continuously through context.",
   },
   {
     icon: ShieldCheck,
-    title: "Sovereign Privacy",
-    body: "On-device by default, encrypted end to end. Your data stays yours — an auditable, secure record for every action.",
+    title: "Invisible Interaction",
+    body: "Technology designed to disappear into the experience rather than interrupt it.",
   },
   {
     icon: Waves,
