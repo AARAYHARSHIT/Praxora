@@ -100,7 +100,7 @@ export function Features() {
           <Reveal key={f.title} delay={(i % 3) * 90}>
             <TiltCard>
               <article
-  className="
+               className="
   group
   glass
   relative
@@ -120,7 +120,7 @@ export function Features() {
   hover:shadow-[0_20px_80px_rgba(0,255,255,0.08)]
   "
 >
-<div
+  <div
   className="
   absolute
   bottom-0
@@ -137,9 +137,9 @@ export function Features() {
 
   group-hover:w-full
   "
-/>
-<div
-aria-hidden="true"
+  />
+
+<div aria-hidden="true"
 className="
 pointer-events-none
 
@@ -165,8 +165,8 @@ group-hover:scale-125
 group-hover:opacity-100
 "
 />
- <div
-className="
+
+ <div className="
 mb-5
 inline-flex
 size-11
@@ -190,7 +190,7 @@ group-hover:ring-cyan-400/50
 group-hover:bg-cyan-400/10
 "
 >
-                  <f.icon
+ <f.icon
 className="
 size-5
 
@@ -200,8 +200,8 @@ duration-500
 group-hover:scale-110
 "
 />
-                </div>
-                <h3
+ </div>
+<h3
 className="
 mb-2
 text-lg
@@ -216,10 +216,10 @@ duration-500
 group-hover:text-cyan-100
 "
 >
-                  {f.title}
-                </h3>
-                <p
-className="
+    {f.title}
+    </h3>
+   <p
+  className="
 text-sm
 
 leading-relaxed
