@@ -15,10 +15,68 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Praxora — Intelligence, Weightless',
+  metadataBase: new URL("https://praxora.vercel.app"),
+
+  title: {
+    default: "Praxora • Spatial Intelligence",
+    template: "%s • Praxora",
+  },
+
   description:
-    'Praxora is an advanced AI and technology platform engineered for a new era of spatial intelligence. Cinematic, precise, effortless.',
-  generator: 'v0.app',
+    "Praxora is a futuristic concept platform exploring spatial intelligence, adaptive AI systems, and human-centered interfaces inspired by next-generation computing experiences.",
+
+  applicationName: "Praxora",
+
+  keywords: [
+    "Praxora",
+    "Artificial Intelligence",
+    "Spatial Intelligence",
+    "Future Technology",
+    "AI Platform",
+    "Next.js",
+    "Glassmorphism",
+    "Human Computer Interaction",
+    "Portfolio",
+    "Landing Page",
+  ],
+
+  authors: [
+    {
+      name: "Harshit Pathak",
+      url: "https://github.com/YOUR_GITHUB_USERNAME",
+    },
+  ],
+
+  creator: "Harshit Pathak",
+
+  publisher: "Praxora",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "Praxora • Spatial Intelligence",
+    description:
+      "Advanced intelligence engineered to feel weightless.",
+    url: "https://praxora.vercel.app",
+    siteName: "Praxora",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Praxora",
+    description:
+      "Advanced intelligence engineered to feel weightless.",
+  },
+
+  category: "technology",
+
+  themeColor: "#090B10",
+
   icons: {
     icon: [
       {
@@ -50,10 +108,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+  lang="en"
+  suppressHydrationWarning
       className={`dark bg-background ${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable}`}
     >
-      <body className="font-sans antialiased">
+      <body
+  className="antialiased bg-black text-white selection:bg-cyan-400 selection:text-black"
+>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

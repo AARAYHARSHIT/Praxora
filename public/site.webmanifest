@@ -1,0 +1,9 @@
+{
+  "name": "Praxora",
+  "short_name": "Praxora",
+  "display": "standalone",
+  "background_color": "#090B10",
+  "theme_color": "#090B10",
+  "start_url": "/",
+  "orientation": "portrait"
+}
