@@ -104,6 +104,10 @@ Praxora explores how future AI interfaces could feel more natural, lightweight, 
 
 ---
 
+## 📌 Note
+
+Praxora is a concept project created to explore futuristic interface design and modern frontend development techniques. It does not represent a production AI platform.
+
 ## 📚 What I Learned
 
 - Building scalable components in Next.js
